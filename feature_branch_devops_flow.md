@@ -32,4 +32,3 @@ sequenceDiagram
     Main ->> Main: GitHub Actions build & push image to ACR
     Main ->> Main: Update <b>production-kubernetes-applications</b><br/>and/or <b>dr-kubernetes-applications</b> deployment YAML<br/>Trigger ArgoCD deploy → <b>Production / DR Env</b>
     Main ->> Main: Tag release (vX.X.X)
-```
